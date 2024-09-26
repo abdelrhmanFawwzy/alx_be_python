@@ -28,18 +28,18 @@ def main():
         else:
             print("Invalid choice. Please try again.")
             
-def add_item ():
+def add_item():
     item_name = input("Enter the item name to add to the list: ")
     shopping_list.append(item_name)
 
-def remove_item ():
+def remove_item():
     item_name = input("enter tha name of the item to remove: ")
     if item_name in shopping_list:
         shopping_list.remove(item_name)
     else:
         print("Item dose not exist.")
 
-def display_items ():
+def display_items():
     for item in shopping_list:
         print(item)  
 
