@@ -29,7 +29,7 @@ def main():
             print("Invalid choice. Please try again.")
             
 def add_item():
-    item_name = input("Enter the item name to add to the list: ")
+    item_name = input(Enter the item to add: ")
     shopping_list.append(item_name)
 
 def remove_item():
