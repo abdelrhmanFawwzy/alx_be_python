@@ -4,7 +4,7 @@ class Calculator:
     
     @staticmethod
     def add(a, b):
-        return a * b
+        return a + b
     
     @classmethod
     def multiply(cls, a, b):
@@ -13,4 +13,4 @@ class Calculator:
         
         print(f"Calculation type: {cls.calculation_type}")
         
-        return cls.a * cls.b
+        return  a * b
