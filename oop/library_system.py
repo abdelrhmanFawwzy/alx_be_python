@@ -31,9 +31,9 @@ class Library:
     def list_books(self):
         for book in self.books:
             if book.__class__.__name__ == "PrintBook":
-                print(f"{book.__class__.__name__}: {book.title} by {book.author}, page count: {book.page_count}")
+                print(f"{book.__class__.__name__}: {book.title} by {book.author}, Page Count: {book.page_count}")
             elif book.__class__.__name__ == "EBook":
-                print(f"{book.__class__.__name__}: {book.title} by {book.author}, file size: {book.file_size}KB")
+                print(f"{book.__class__.__name__}: {book.title} by {book.author}, File Size: {book.file_size}KB")
             else:   
                 print(f"{book.__class__.__name__}: {book.title} by {book.author}")
                 
